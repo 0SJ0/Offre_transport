@@ -290,7 +290,7 @@ st.markdown("### Initialisation de la fiche :")
 Nom_gare= st.selectbox('Sélection de la gare',liste_gares)
 Noms_themes = st.multiselect( 
     'Sélection des thèmes',
-    ['Généralités','Nombre de cars TER','Nombre de trains TER','Nombre de voyageurs', 'Objets trouvés', 'Photo','Tarification','Vision globale'],
+    ['Généralités','Nombre de cars TER','Nombre de trains TER', 'Objets trouvés', 'Photo','Vision globale'],
     []) # 'Généralités', 'Photo',
 liste_themes_choisis=str(list(Noms_themes))
 st.write('La gare de', Nom_gare , ' a été selectionné sur les thèmes',liste_themes_choisis)
